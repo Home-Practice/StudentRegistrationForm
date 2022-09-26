@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.app.springmvc</groupId>
-	<artifactId>WebStudentRegistrationForm</artifactId>
+	<artifactId>StudentRegistrationForm</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>WebStudentRegistrationForm</name>
+	<name>StudentRegistrationForm</name>
 	<description>10th Spring boot web app</description>
 
 	<properties>
