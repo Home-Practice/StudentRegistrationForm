@@ -62,6 +62,20 @@
 			</exclusions>
 		</dependency>
 	</dependencies>
+	
+	<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <url>http://172.31.36.249:8081/repository/StudentRegistrationForm-Release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <url>http://172.31.36.249:8081/repository/StudentRegistrationForm-Snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 
 	<build>
 		<plugins>
