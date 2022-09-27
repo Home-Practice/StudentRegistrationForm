@@ -61,6 +61,20 @@
 			</exclusions>
 		</dependency>
 	</dependencies>
+	
+	<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <url>http://172.31.36.249:8081/repository/StudentRegistrationForm-Declarative-Release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <url>http://172.31.36.249:8081/repository/StudentRegistrationForm-Declarative-Snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 
 	<build>
 		<plugins>
